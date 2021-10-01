@@ -1,4 +1,4 @@
-﻿import destructuring from '../app.js';
+import destructuring from '../app';
 
 test('destructuring1', () => {
   const character = {
@@ -34,7 +34,7 @@ test('destructuring1', () => {
       id: 9,
       name: 'Нокаутирующий удар',
       icon: 'http://...',
-      description: "Описание недоступно"
+      description: 'Описание недоступно',
     },
   ];
   expect(destructuring(character)).toEqual(result);
